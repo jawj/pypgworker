@@ -29,5 +29,5 @@ npx wrangler@latest secret put DB_USER
 npx wrangler@latest secret put DB_PASSWORD
 # ************
 
-npx wrangler@latest dev
+npx wrangler@latest deploy
 ```
