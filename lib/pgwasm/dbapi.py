@@ -1,14 +1,13 @@
 from __future__ import annotations
 
 import asyncio
-import threading
+# import threading
 from datetime import date as Date, datetime as Datetime, time as Time
 from itertools import count, islice
 from time import localtime
 from warnings import warn
 
-import asgiref.sync
-
+# import asgiref.sync
 
 # from asgiref.sync import async_to_sync
 # global loop
