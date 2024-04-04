@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: wasmsockets
+Version: 0.1.4
+Summary: Async interface to Pyodide WebSockets
+Home-page: https://github.com/SubstructureOne/wasmsockets
+License: Apache-2.0
+Author: dek
+Author-email: dek@substructure.one
+Requires-Python: >=3.8,<4.0
+Classifier: Environment :: Web Environment
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Communications
+Classifier: Topic :: Internet :: WWW/HTTP :: Browsers
+Requires-Dist: websockets (>=10.4,<11.0); sys_platform != "emscripten"
+Project-URL: Repository, https://github.com/SubstructureOne/wasmsockets
+Description-Content-Type: text/markdown
+
+wasmsockets
+===========
+
+This is a thin layer over the pyodide JS WebSocket interface. It is intended 
+to provide a similar interface to the `websockets` python package.
+
+This package will only work when run under the pyodide environment.
+

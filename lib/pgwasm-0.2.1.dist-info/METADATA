@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pgwasm
+Version: 0.2.1
+Summary: PostgreSQL interface for WebAssembly over WebSockets
+Home-page: https://github.com/SubstructureOne/pgwasm1
+License: BSD-3-Clause
+Author: dek
+Author-email: dek@substructure.one
+Requires-Python: >=3.8,<4.0
+Classifier: Environment :: Web Environment
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Classifier: Topic :: Internet :: WWW/HTTP :: Browsers
+Requires-Dist: asgiref (>=3.5.2,<4.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: scramp (>=1.4.4,<2.0.0)
+Requires-Dist: wasmsockets (>=0.1.3,<0.2.0)
+Project-URL: Repository, https://github.com/SubstructureOne/pgwasm1
+Description-Content-Type: text/markdown
+
+pgwasm
+======
+
+pgwasm is a Python interface to PostgreSQL proxied over WebSockets for use in
+WebAssembly (specifically using Pyodide). It is based on pg8000 and uses
+wasmsockets for communication.
+
+wasmsockets handles the proxying of WebSocket calls to the Javascript 
+interface when it detects it is being run in a WebAssembly environment. When 
+run in a native Python environment, it instead uses the websockets package. 
+This allows pgwasm to be tested in a native environment. However in both 
+cases, since all network traffic is proxied over WebSockets, a WebSocket 
+proxy is also required for the Postgres server; it cannot connect to a 
+PostgreSQL server directly. The websockify package is convenient for 
+implementing this proxy to PostgreSQL.
+

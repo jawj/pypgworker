@@ -1,0 +1,16 @@
+pgwasm-0.2.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+pgwasm-0.2.1.dist-info/LICENSE,sha256=XDX-K855bGvMJ4LXnUrWLExHLKPHONoT9abdKm2OQmM,1550
+pgwasm-0.2.1.dist-info/METADATA,sha256=f8Qwmyfg624ISSX-czxraF9_DbSmhGPQs_XiEVcuFIY,1849
+pgwasm-0.2.1.dist-info/RECORD,,
+pgwasm-0.2.1.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgwasm-0.2.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pgwasm/__init__.py,sha256=_w95BEvm3NqIAH3uK2yGkfcVbyQV3Ect3onAy8P4MVg,2277
+pgwasm/__pycache__/__init__.cpython-312.pyc,,
+pgwasm/__pycache__/converters.cpython-312.pyc,,
+pgwasm/__pycache__/core.cpython-312.pyc,,
+pgwasm/__pycache__/dbapi.cpython-312.pyc,,
+pgwasm/__pycache__/exceptions.cpython-312.pyc,,
+pgwasm/converters.py,sha256=5rQFX7n1FAFeSlnaVixsthNSuTvPcNH0u4Z035kMBJM,20608
+pgwasm/core.py,sha256=ZnHijK5K7aXwq-tLtZHYKruvdthNG4Nst0uELOjprd0,27316
+pgwasm/dbapi.py,sha256=F51pZsOg6OSNq_oDdQJvUB67bf5FybfQng1CWkMKUc0,32362
+pgwasm/exceptions.py,sha256=2ZsB7erzgfCiQqBF4tfVqZa_v9ihz4N6qpj3jJEuQGc,887
